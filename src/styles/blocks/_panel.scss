@@ -1,0 +1,78 @@
+.top-panel {
+  background-color: #ACACBC;
+  width: 100%;
+}
+
+.top-panel__container {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdown {
+  display: none;
+}
+
+.dropdown-active + .dropdown {
+  display: block;
+}
+
+.top-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.top-menu__items-links {
+  color: #ffffff;
+}
+
+.top-menu__submenu {
+  display: none;
+}
+
+.top-menu__items {
+  padding-left: 50px;
+
+  &:hover .top-menu__submenu {
+    display: block;
+  }
+}
+
+.top-panel__phone {
+  margin-left: auto;
+  font-weight: 600;
+  color: #ffffff;
+
+  span {
+    font-weight: 400;
+  }
+}
+
+.top-panel__login {
+  margin-left: 70px;
+  color: #ffffff;
+}
+
+svg.top-panel__login-icon {
+  height: 16px;
+  width: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

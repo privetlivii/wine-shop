@@ -1,0 +1,54 @@
+.header {
+  background: #F5F5F7;
+  box-shadow: 0 6px 13px 0 rgba(50, 50, 50, 0.72);
+
+}
+
+.header-container {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.search-form {
+  border: 1px solid #FF9522;
+  padding: 5px 10px;
+  border-radius: 50px;
+  width: 488px;
+  display: flex;
+}
+
+.search-form__field {
+  width: 400px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.search-form__button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.search-form__button-icon {
+  margin-left: 10%;
+  width: 16px;
+  height: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
